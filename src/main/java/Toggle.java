@@ -1,6 +1,6 @@
 public class Toggle {
 
-    volatile boolean toggleSwitch = false;
+    private volatile boolean toggleSwitch = false;
 
     public void on() {
         System.out.printf("%s включил тумблер \n", Thread.currentThread().getName());

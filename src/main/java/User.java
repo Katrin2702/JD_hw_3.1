@@ -1,8 +1,8 @@
 public class User extends Thread {
 
     private Toy toy;
-    int timeOut = 5000;
-    int numberOn = 5;
+    private static final int timeOut = 5000;
+    private static final int numberOn = 5;
 
     public User(Toy toy) {
         this.toy = toy;
